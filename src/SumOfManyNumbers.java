@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
-//3
-//Sum now: 3
-//2
-//Sum now: 5
-//1
-//Sum now: 6
-//1
-//Sum now: 7
-//0
-//Sum in the end: 7
+//    3
+//    Sum now: 3
+//    2
+//    Sum now: 5
+//    1
+//    Sum now: 6
+//    1
+//    Sum now: 7
+//    0
+//    Sum in the end: 7
 
 public class SumOfManyNumbers {
 
