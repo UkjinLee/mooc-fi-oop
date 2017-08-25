@@ -17,6 +17,6 @@ public class Divider {
         System.out.print("Type another number: ");
         int b = reader.nextInt();
 
-        System.out.println("Division: " + a + " / " + b + " = " + ((double) a / b));
+        System.out.println("\nDivision: " + a + " / " + b + " = " + ((double) a / b));
     }
 }
