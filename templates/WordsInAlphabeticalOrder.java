@@ -9,13 +9,14 @@ import java.util.Scanner;
 //        Type a word: Liszt
 //        Type a word:
 //        You typed the following words:
-//        Liszt
-//        Sibelius
 //        Bach
-//        Schubert
+//        Liszt
 //        Mozart
+//        Schubert
+//        Sibelius
 
-public class WordsInReverseOrder {
+public class WordsInAlphabeticalOrder {
+
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         ArrayList<String> words = new ArrayList<>();
@@ -28,7 +29,7 @@ public class WordsInReverseOrder {
             words.add(input);
         }
 
-        // todo: reverse a word list
+        // todo: sort a word list
 
         System.out.println("You typed the following words:");
         for (String word : words) {

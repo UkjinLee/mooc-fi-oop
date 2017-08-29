@@ -28,7 +28,7 @@ public class WordsInReverseOrder {
             words.add(input);
         }
 
-        // todo: sort a word list
+        // todo: reverse a word list
         Collections.reverse(words);
 
         System.out.println("You typed the following words:");
