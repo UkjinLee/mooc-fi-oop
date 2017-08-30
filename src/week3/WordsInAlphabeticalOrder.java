@@ -1,4 +1,7 @@
+package week3;
+
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 //        Type a word: Mozart
@@ -8,13 +11,14 @@ import java.util.Scanner;
 //        Type a word: Liszt
 //        Type a word:
 //        You typed the following words:
+//        Bach
+//        Liszt
 //        Mozart
 //        Schubert
-//        Bach
 //        Sibelius
-//        Liszt
 
-public class Words {
+public class WordsInAlphabeticalOrder {
+
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         ArrayList<String> words = new ArrayList<>();
@@ -26,6 +30,9 @@ public class Words {
                 break;
             words.add(input);
         }
+
+        // todo: sort a word list
+        Collections.sort(words);
 
         System.out.println("You typed the following words:");
         for (String word : words) {

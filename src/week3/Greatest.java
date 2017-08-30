@@ -1,3 +1,5 @@
+package week3;
+
 public class Greatest {
 
     public static int greatest(int number1, int number2, int number3) {
@@ -6,6 +8,6 @@ public class Greatest {
 
     public static void main(String[] args) {
         int result = greatest(2, 7, 3);
-        System.out.println("Greatest: " + result);
+        System.out.println("week3.Greatest: " + result);
     }
 }

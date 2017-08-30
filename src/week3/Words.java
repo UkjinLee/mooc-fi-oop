@@ -1,5 +1,6 @@
+package week3;
+
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 //        Type a word: Mozart
@@ -9,13 +10,13 @@ import java.util.Scanner;
 //        Type a word: Liszt
 //        Type a word:
 //        You typed the following words:
-//        Liszt
-//        Sibelius
-//        Bach
-//        Schubert
 //        Mozart
+//        Schubert
+//        Bach
+//        Sibelius
+//        Liszt
 
-public class WordsInReverseOrder {
+public class Words {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         ArrayList<String> words = new ArrayList<>();
@@ -27,9 +28,6 @@ public class WordsInReverseOrder {
                 break;
             words.add(input);
         }
-
-        // todo: reverse a word list
-        Collections.reverse(words);
 
         System.out.println("You typed the following words:");
         for (String word : words) {

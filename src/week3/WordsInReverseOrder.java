@@ -1,3 +1,5 @@
+package week3;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -9,14 +11,13 @@ import java.util.Scanner;
 //        Type a word: Liszt
 //        Type a word:
 //        You typed the following words:
-//        Bach
 //        Liszt
-//        Mozart
-//        Schubert
 //        Sibelius
+//        Bach
+//        Schubert
+//        Mozart
 
-public class WordsInAlphabeticalOrder {
-
+public class WordsInReverseOrder {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         ArrayList<String> words = new ArrayList<>();
@@ -29,8 +30,8 @@ public class WordsInAlphabeticalOrder {
             words.add(input);
         }
 
-        // todo: sort a word list
-        Collections.sort(words);
+        // todo: reverse a word list
+        Collections.reverse(words);
 
         System.out.println("You typed the following words:");
         for (String word : words) {

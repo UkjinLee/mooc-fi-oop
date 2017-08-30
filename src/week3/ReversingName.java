@@ -1,3 +1,5 @@
+package week3;
+
 import java.util.Scanner;
 
 //      Type your name: Paul

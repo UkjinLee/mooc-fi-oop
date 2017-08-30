@@ -1,3 +1,5 @@
+package week3;
+
 import java.util.ArrayList;
 
 //        There are this many items in the list:
