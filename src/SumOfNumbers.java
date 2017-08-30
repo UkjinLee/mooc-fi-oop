@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class SumOfNumbers {
     public static int sum(ArrayList<Integer> list) {
         int sum = 0;
-        for (Integer i : list) {
+        for (int i : list) {
             sum += i;
         }
         return sum;
