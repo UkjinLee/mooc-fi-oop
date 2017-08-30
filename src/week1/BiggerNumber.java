@@ -1,3 +1,5 @@
+package week1;
+
 import java.util.Scanner;
 
 //Type a number: 20

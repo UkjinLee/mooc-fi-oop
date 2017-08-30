@@ -1,3 +1,5 @@
+package week2;
+
 import hangman.Hangman;
 
 import java.util.Scanner;

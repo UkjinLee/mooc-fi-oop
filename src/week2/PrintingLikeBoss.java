@@ -1,3 +1,5 @@
+package week2;
+
 public class PrintingLikeBoss {
 
     // copy or rewrite the method of Assignment 39.1 here
