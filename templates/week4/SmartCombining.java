@@ -2,6 +2,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class SmartCombining {
+
+    public static void smartCombine(ArrayList<Integer> first, ArrayList<Integer> second) {
+
+    }
+
     public static void main(String[] args) {
 
         ArrayList<Integer> list1 = new ArrayList<Integer>();
