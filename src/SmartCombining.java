@@ -4,7 +4,7 @@ import java.util.Collections;
 public class SmartCombining {
 
     public static void smartCombine(ArrayList<Integer> first, ArrayList<Integer> second) {
-        for (int i : second) 
+        for (int i : second)
             if (!first.contains(i))
                 Collections.addAll(first, i);
     }
