@@ -15,6 +15,7 @@ public class Product {
     }
 
     public void printProduct() {
-        System.out.println("Product:: name=" + name + " price=" + price + " amount=" + amount);
+//        Banana, price 1.1, amount 13
+        System.out.println(name + ", price " + price + ", amount " + amount);
     }
 }
