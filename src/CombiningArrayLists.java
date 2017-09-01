@@ -4,8 +4,7 @@ import java.util.Collections;
 public class CombiningArrayLists {
 
     public static void combine(ArrayList<Integer> first, ArrayList<Integer> second) {
-        for (int i : second)
-            Collections.addAll(first, i);
+        first.addAll(second);
     }
 
     public static void main(String[] args) {
