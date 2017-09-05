@@ -1,3 +1,5 @@
+package week4;
+
 public class MenuMain {
 
     public static void main(String[] args) {

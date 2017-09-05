@@ -1,3 +1,5 @@
+package week4;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
@@ -7,7 +9,7 @@ public class LotteryNumbers {
     private ArrayList<Integer> numbers;
     Random random;
 
-//    creates a new LotteryNumbers object, which contains the new drawn numbers
+//    creates a new week4.LotteryNumbers object, which contains the new drawn numbers
     public LotteryNumbers() {
         numbers = new ArrayList<>();
         random = new Random();

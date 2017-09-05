@@ -1,3 +1,5 @@
+package week4;
+
 public class MultiplierMain {
 
 //    threeMultiplier.multiply(2): 6

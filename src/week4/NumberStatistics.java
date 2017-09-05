@@ -1,3 +1,5 @@
+package week4;
+
 public class NumberStatistics {
 
 //    EXERCISE 79.1: AMOUNT OF NUMBERS

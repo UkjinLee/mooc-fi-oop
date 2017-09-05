@@ -1,3 +1,5 @@
+package week4;
+
 import java.util.Scanner;
 
 public class NumberStatisticsMain {
@@ -8,7 +10,7 @@ public class NumberStatisticsMain {
 //
 //        Amount: 4
 //
-//        NumberStatistics stats = new NumberStatistics();
+//        week4.NumberStatistics stats = new week4.NumberStatistics();
 //        stats.addNumber(3);
 //        stats.addNumber(5);
 //        stats.addNumber(1);
@@ -22,7 +24,7 @@ public class NumberStatisticsMain {
 //        sum: 11
 //        average: 2.75
 //
-//        NumberStatistics stats = new NumberStatistics();
+//        week4.NumberStatistics stats = new week4.NumberStatistics();
 //        stats.addNumber(3);
 //        stats.addNumber(5);
 //        stats.addNumber(1);
@@ -44,11 +46,11 @@ public class NumberStatisticsMain {
 
 //        When the user gives -1, the program stops and prints the sum of the given numbers
 //        (excluding the -1).
-//        should not make any changes to class NumberStatistics!
+//        should not make any changes to class week4.NumberStatistics!
 
 //        System.out.println("Type numbers:");
 //        Scanner reader = new Scanner(System.in);
-//        NumberStatistics stats = new NumberStatistics();
+//        week4.NumberStatistics stats = new week4.NumberStatistics();
 //
 //        while (true) {
 //            int input = reader.nextInt();
@@ -72,10 +74,10 @@ public class NumberStatisticsMain {
 //        sum of even: 8
 //        sum of odd: 5
 //
-//        define in your program three NumberStatistics objects.
+//        define in your program three week4.NumberStatistics objects.
 //        The first is used to track the sum of all the numbers.
 //        The second takes care of even numbers and the third the odd numbers.
-//        you should not make any changes to class NumberStatistics!
+//        you should not make any changes to class week4.NumberStatistics!
 
         System.out.println("Type numbers:");
         Scanner reader = new Scanner(System.in);

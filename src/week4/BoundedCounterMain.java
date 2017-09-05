@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package week4;
 
 public class BoundedCounterMain {
 //    public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class BoundedCounterMain {
 //    Value: 4
 //    Value: 0
 //
-//        BoundedCounter counter = new BoundedCounter(4);
+//        week4.BoundedCounter counter = new week4.BoundedCounter(4);
 //        System.out.println("Value at start: " + counter );
 //
 //        int i = 0;
@@ -48,7 +48,7 @@ public class BoundedCounterMain {
 //        value: 00
 //        value: 01
 //
-//        BoundedCounter counter = new BoundedCounter(14);
+//        week4.BoundedCounter counter = new week4.BoundedCounter(14);
 //        System.out.println("Value at start: " + counter );
 //
 //        int i = 0;
@@ -72,8 +72,8 @@ public class BoundedCounterMain {
 //        01:59
 //        02:00
 //
-//        BoundedCounter minutes = new BoundedCounter(59);
-//        BoundedCounter hours = new BoundedCounter(23);
+//        week4.BoundedCounter minutes = new week4.BoundedCounter(59);
+//        week4.BoundedCounter hours = new week4.BoundedCounter(23);
 //
 //        int i = 0;
 //        while ( i < 121 ) {
@@ -98,9 +98,9 @@ public class BoundedCounterMain {
 //        ...
 //
 //        Scanner reader = new Scanner(System.in);
-//        BoundedCounter seconds = new BoundedCounter(59);
-//        BoundedCounter minutes = new BoundedCounter(59);
-//        BoundedCounter hours = new BoundedCounter(23);
+//        week4.BoundedCounter seconds = new week4.BoundedCounter(59);
+//        week4.BoundedCounter minutes = new week4.BoundedCounter(59);
+//        week4.BoundedCounter hours = new week4.BoundedCounter(23);
 //
 //        System.out.print("seconds: ");
 //        int s = reader.nextInt();

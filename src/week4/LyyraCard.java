@@ -1,3 +1,5 @@
+package week4;
+
 public class LyyraCard {
 
     private double balance;

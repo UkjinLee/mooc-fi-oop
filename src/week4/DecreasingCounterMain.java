@@ -1,3 +1,5 @@
+package week4;
+
 public class DecreasingCounterMain {
     public static void main(String[] args) {
 //      EXERCISE 75.1: IMPLEMENTING METHOD DECREASE()
@@ -5,7 +7,7 @@ public class DecreasingCounterMain {
 //      value: 9
 //      value: 8
 
-//        DecreasingCounter counter = new DecreasingCounter(10);
+//        week4.DecreasingCounter counter = new week4.DecreasingCounter(10);
 //
 //        counter.printValue();
 //
@@ -22,7 +24,7 @@ public class DecreasingCounterMain {
 //        value: 0
 //        value: 0
 //
-//        DecreasingCounter counter = new DecreasingCounter(2);
+//        week4.DecreasingCounter counter = new week4.DecreasingCounter(2);
 //
 //        counter.printValue();
 //
@@ -40,7 +42,7 @@ public class DecreasingCounterMain {
 //        value: 0
 //        value: 0
 //
-//        DecreasingCounter counter = new DecreasingCounter(100);
+//        week4.DecreasingCounter counter = new week4.DecreasingCounter(100);
 //
 //        counter.printValue();
 //

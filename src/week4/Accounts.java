@@ -1,3 +1,5 @@
+package week4;
+
 public class Accounts {
 
     public static void transfer(Account from, Account to, double howMuch) {
@@ -6,7 +8,7 @@ public class Accounts {
     }
 
     public static void main(String[] args) {
-        // Code in Account.Java should not be touched!
+        // Code in week4.Account.Java should not be touched!
         // write your code here
 
 //        1)
@@ -33,7 +35,7 @@ public class Accounts {
         System.out.println(myAccount);
 
 //        3)
-//        public static void transfer(Account from, Account to, double howMuch)
+//        public static void transfer(week4.Account from, week4.Account to, double howMuch)
 //        1. Creates an account "A" with the balance of 100.0
 //        2. Creates an account "B" with the balance of 0.0
 //        3. Creates an account "C" with the balance of 0.0

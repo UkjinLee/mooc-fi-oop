@@ -1,3 +1,5 @@
+package week4;
+
 public class ProductMain {
     public static void main(String[] args) {
         // You can test your new class here, try e.g.:

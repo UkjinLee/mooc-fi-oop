@@ -1,7 +1,9 @@
+package week4;
+
 public class Product {
 
     // price, amount and name
-    // Product t = new Product("Banana", 1.1, 13);
+    // week4.Product t = new week4.Product("Banana", 1.1, 13);
     // t.printProduct();
 
     private String name;

@@ -1,3 +1,5 @@
+package week4;
+
 public class DecreasingCounter {
     private int value;  // instance variable that remembers the value of the counter
     private int initial;
