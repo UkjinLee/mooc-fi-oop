@@ -22,5 +22,56 @@ public class MyDateMain {
         }
         System.out.println("This week's Friday is " + day);
         System.out.println("The date 790 days from this week's Friday is  " + day.afterNumberOfDays(790));
+
+
+//        EXERCISE 92.1: DIFFERENCE IN YEARS, FIRST VERSION
+
+//        1.1.2011 and 24.12.2009 difference in years: 2     // since 2011-2009 = 2
+//        25.12.2010 and 24.12.2009 difference in years: 1   // since 2010-2009 = 1
+//        1.1.2011 and 25.12.2010 difference in years: 1     // since 2011-2010 = 1
+
+//        MyDate first = new MyDate(24, 12, 2009);
+//        MyDate second = new MyDate(1, 1, 2011);
+//        MyDate third = new MyDate(25, 12, 2010);
+//
+//        System.out.println( second + " and " + first + " difference in years: " + second.differenceInYears(first) );
+//        System.out.println( third + " and " + first + " difference in years: " + third.differenceInYears(first) );
+//        System.out.println( second + " and " + third + " difference in years: " + second.differenceInYears(third) );
+
+
+//        EXERCISE 92.2: MORE ACCURACY
+
+//        1.1.2011 and 24.12.2009 difference in years: 1
+//        25.12.2010 and 24.12.2009 difference in years: 1
+//        1.1.2011 and 25.12.2010 difference in years: 0
+
+//        MyDate first = new MyDate(24, 12, 2009);
+//        MyDate second = new MyDate(1, 1, 2011);
+//        MyDate third = new MyDate(25, 12, 2010);
+//
+//        System.out.println( second + " and " + first + " difference in years: " + second.differenceInYears(first) );
+//        System.out.println( third + " and " + first + " difference in years: " + third.differenceInYears(first) );
+//        System.out.println( second + " and " + third + " difference in years: " + second.differenceInYears(third) );
+
+
+//        EXERCISE 92.3: AND THE FINAL VERSION
+//
+//        24.12.2009 and 1.1.2011 difference in years: 1
+//        1.1.2011 and 24.12.2009 difference in years: 1
+//        24.12.2009 and 25.12.2010 difference in years: 1
+//        25.12.2010 and 24.12.2009 difference in years: 1
+//        1.1.2011 and 25.12.2010 difference in years: 0
+//        25.12.2010 and 1.1.2011 difference in years: 0
+//
+//        MyDate first = new MyDate(24, 12, 2009);
+//        MyDate second = new MyDate(1, 1, 2011);
+//        MyDate third = new MyDate(25, 12, 2010);
+//
+//        System.out.println( first + " and " + second + " difference in years: " + second.differenceInYears(first) );
+//        System.out.println( second + " and " + first + " difference in years: " + first.differenceInYears(second) );
+//        System.out.println( first + " and " + third + " difference in years: " + third.differenceInYears(first) );
+//        System.out.println( third + " and " + first + " difference in years: " + first.differenceInYears(third) );
+//        System.out.println( third + " and " + second + " difference in years: " + second.differenceInYears(third) );
+//        System.out.println( second + " and " + third + " difference in years: " + third.differenceInYears(second) );
     }
 }

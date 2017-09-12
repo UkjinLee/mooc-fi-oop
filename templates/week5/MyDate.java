@@ -60,4 +60,12 @@ public class MyDate {
     public MyDate afterNumberOfDays(int days) {
         return null;
     }
+
+
+//    EXERCISE 92.1: DIFFERENCE IN YEARS, FIRST VERSION
+
+//    calculates the difference in years
+    public int differenceInYears(MyDate comparedDate) {
+        return -1;
+    }
 }

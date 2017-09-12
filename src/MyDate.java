@@ -78,4 +78,25 @@ public class MyDate {
         date.advance(days);
         return date;
     }
+
+
+    //    EXERCISE 92.1: DIFFERENCE IN YEARS, FIRST VERSION
+
+    //    calculates the difference in years
+    public int differenceInYears(MyDate comparedDate) {
+        if (year == comparedDate.year)
+            return 0;
+        MyDate later = this;
+        MyDate before = comparedDate;
+        if (earlier(comparedDate)) {
+            later = comparedDate;
+            before = this;
+        }
+        int difference = later.year - before.year;
+        if (later.month < before.month)
+            difference--;
+        else if (later.month == before.month && later.day < before.day)
+            difference--;
+        return difference;
+    }
 }
