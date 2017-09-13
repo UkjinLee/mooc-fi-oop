@@ -17,7 +17,7 @@ public class BoundedCounterMain {
 //    Value: 4
 //    Value: 0
 //
-//        BoundedCounter counter = new BoundedCounter(4);
+//        week5.BoundedCounter counter = new week5.BoundedCounter(4);
 //        System.out.println("Value at start: " + counter );
 //
 //        int i = 0;
@@ -48,7 +48,7 @@ public class BoundedCounterMain {
 //        value: 00
 //        value: 01
 //
-//        BoundedCounter counter = new BoundedCounter(14);
+//        week5.BoundedCounter counter = new week5.BoundedCounter(14);
 //        System.out.println("Value at start: " + counter );
 //
 //        int i = 0;
@@ -72,8 +72,8 @@ public class BoundedCounterMain {
 //        01:59
 //        02:00
 //
-//        BoundedCounter minutes = new BoundedCounter(59);
-//        BoundedCounter hours = new BoundedCounter(23);
+//        week5.BoundedCounter minutes = new week5.BoundedCounter(59);
+//        week5.BoundedCounter hours = new week5.BoundedCounter(23);
 //
 //        int i = 0;
 //        while ( i < 121 ) {
@@ -95,9 +95,9 @@ public class BoundedCounterMain {
 //        ...
 //
 //        Scanner reader = new Scanner(System.in);
-//        BoundedCounter seconds = new BoundedCounter(59);
-//        BoundedCounter minutes = new BoundedCounter(59);
-//        BoundedCounter hours = new BoundedCounter(23);
+//        week5.BoundedCounter seconds = new week5.BoundedCounter(59);
+//        week5.BoundedCounter minutes = new week5.BoundedCounter(59);
+//        week5.BoundedCounter hours = new week5.BoundedCounter(23);
 //
 //        System.out.print("seconds: ");
 //        int s = // read the initial value of seconds from the user
@@ -121,9 +121,9 @@ public class BoundedCounterMain {
 //    Bonus: eternal clock
 //
 //    public static void main(String[] args) throws Exception {
-//        BoundedCounter seconds = new BoundedCounter(59);
-//        BoundedCounter minutes = new BoundedCounter(59);
-//        BoundedCounter hours = new BoundedCounter(23);
+//        week5.BoundedCounter seconds = new week5.BoundedCounter(59);
+//        week5.BoundedCounter minutes = new week5.BoundedCounter(59);
+//        week5.BoundedCounter hours = new week5.BoundedCounter(23);
 //
 //        seconds.setValue(50);
 //        minutes.setValue(59);

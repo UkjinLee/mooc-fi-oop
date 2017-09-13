@@ -8,7 +8,7 @@ public class StudentMain {
 //        studentnumber: 013141590
 //        Pekka Mikkola (013141590)
 
-//        Student pekka = new Student("Pekka Mikkola", "013141590");
+//        week5.Student pekka = new week5.Student("Pekka Mikkola", "013141590");
 //        System.out.println("name: " + pekka.getName());
 //        System.out.println("studentnumber: " + pekka.getStudentNumber());
 //        System.out.println(pekka);

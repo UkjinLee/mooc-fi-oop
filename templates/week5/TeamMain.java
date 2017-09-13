@@ -5,7 +5,7 @@ public class TeamMain {
 
 //        Team: FC Barcelona
 
-//        Team barcelona = new Team("FC Barcelona");
+//        week5.Team barcelona = new week5.Team("FC Barcelona");
 //        System.out.println("Team: " + barcelona.getName());
 
 
@@ -15,13 +15,13 @@ public class TeamMain {
 //        Player: Brian, goals 0
 //        Player: Pekka, goals 39
 
-//        Team barcelona = new Team("FC Barcelona");
+//        week5.Team barcelona = new week5.Team("FC Barcelona");
 //        System.out.println("Team: " + barcelona.getName());
 //
-//        Player brian = new Player("Brian");
+//        week5.Player brian = new week5.Player("Brian");
 //        System.out.println("Player: " + brian);
 //
-//        Player pekka = new Player("Pekka", 39);
+//        week5.Player pekka = new week5.Player("Pekka", 39);
 //        System.out.println("Player: " + pekka);
 
 
@@ -31,10 +31,10 @@ public class TeamMain {
 //        Pekka, goals 39
 //        Mikael, goals 1
 
-//        Team barcelona = new Team("FC Barcelona");
+//        week5.Team barcelona = new week5.Team("FC Barcelona");
 //
-//        Player brian = new Player("Brian");
-//        Player pekka = new Player("Pekka", 39);
+//        week5.Player brian = new week5.Player("Brian");
+//        week5.Player pekka = new week5.Player("Pekka", 39);
 //
 //        barcelona.addPlayer(brian);
 //        barcelona.addPlayer(pekka);
@@ -47,11 +47,11 @@ public class TeamMain {
 
 //        Number of players: 1
 
-//        Team barcelona = new Team("FC Barcelona");
+//        week5.Team barcelona = new week5.Team("FC Barcelona");
 //        barcelona.setMaxSize(1);
 //
-//        Player brian = new Player("Brian");
-//        Player pekka = new Player("Pekka", 39);
+//        week5.Player brian = new week5.Player("Brian");
+//        week5.Player pekka = new week5.Player("Pekka", 39);
 //        barcelona.addPlayer(brian);
 //        barcelona.addPlayer(pekka);
 //        barcelona.addPlayer(new Player("Mikael", 1)); // works similarly as the above
@@ -63,10 +63,10 @@ public class TeamMain {
 
 //        Total goals: 40
 
-//        Team barcelona = new Team("FC Barcelona");
+//        week5.Team barcelona = new week5.Team("FC Barcelona");
 //
-//        Player brian = new Player("Brian");
-//        Player pekka = new Player("Pekka", 39);
+//        week5.Player brian = new week5.Player("Brian");
+//        week5.Player pekka = new week5.Player("Pekka", 39);
 //        barcelona.addPlayer(brian);
 //        barcelona.addPlayer(pekka);
 //        barcelona.addPlayer(new Player("Mikael", 1)); // works similarly as the above

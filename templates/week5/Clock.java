@@ -9,7 +9,7 @@ public class Clock {
     }
 
     public void tick(){
-        // Clock advances by one second
+        // week5.Clock advances by one second
     }
 
     public String toString() {

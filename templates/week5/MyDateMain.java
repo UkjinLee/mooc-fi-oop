@@ -30,9 +30,9 @@ public class MyDateMain {
 //        25.12.2010 and 24.12.2009 difference in years: 1   // since 2010-2009 = 1
 //        1.1.2011 and 25.12.2010 difference in years: 1     // since 2011-2010 = 1
 
-//        MyDate first = new MyDate(24, 12, 2009);
-//        MyDate second = new MyDate(1, 1, 2011);
-//        MyDate third = new MyDate(25, 12, 2010);
+//        week5.MyDate first = new week5.MyDate(24, 12, 2009);
+//        week5.MyDate second = new week5.MyDate(1, 1, 2011);
+//        week5.MyDate third = new week5.MyDate(25, 12, 2010);
 //
 //        System.out.println( second + " and " + first + " difference in years: " + second.differenceInYears(first) );
 //        System.out.println( third + " and " + first + " difference in years: " + third.differenceInYears(first) );
@@ -45,9 +45,9 @@ public class MyDateMain {
 //        25.12.2010 and 24.12.2009 difference in years: 1
 //        1.1.2011 and 25.12.2010 difference in years: 0
 
-//        MyDate first = new MyDate(24, 12, 2009);
-//        MyDate second = new MyDate(1, 1, 2011);
-//        MyDate third = new MyDate(25, 12, 2010);
+//        week5.MyDate first = new week5.MyDate(24, 12, 2009);
+//        week5.MyDate second = new week5.MyDate(1, 1, 2011);
+//        week5.MyDate third = new week5.MyDate(25, 12, 2010);
 //
 //        System.out.println( second + " and " + first + " difference in years: " + second.differenceInYears(first) );
 //        System.out.println( third + " and " + first + " difference in years: " + third.differenceInYears(first) );
@@ -63,9 +63,9 @@ public class MyDateMain {
 //        1.1.2011 and 25.12.2010 difference in years: 0
 //        25.12.2010 and 1.1.2011 difference in years: 0
 //
-//        MyDate first = new MyDate(24, 12, 2009);
-//        MyDate second = new MyDate(1, 1, 2011);
-//        MyDate third = new MyDate(25, 12, 2010);
+//        week5.MyDate first = new week5.MyDate(24, 12, 2009);
+//        week5.MyDate second = new week5.MyDate(1, 1, 2011);
+//        week5.MyDate third = new week5.MyDate(25, 12, 2010);
 //
 //        System.out.println( first + " and " + second + " difference in years: " + second.differenceInYears(first) );
 //        System.out.println( second + " and " + first + " difference in years: " + first.differenceInYears(second) );
