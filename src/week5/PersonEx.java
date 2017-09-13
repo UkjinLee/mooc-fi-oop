@@ -1,3 +1,5 @@
+package week5;
+
 import java.util.Calendar;
 
 public class PersonEx {
@@ -19,7 +21,7 @@ public class PersonEx {
 
     //    EXERCISE 93.1: CALCULATING THE AGE BASED ON THE BIRTHDAY
 
-    //    use the method differenceInYears in the class MyDate
+    //    use the method differenceInYears in the class week5.MyDate
     public int age() {
         // calculate the age based on the birthday and the current day
         // you get the current day as follows:
@@ -41,7 +43,7 @@ public class PersonEx {
 
 //    EXERCISE 93.3: NEW CONSTRUCTORS
 
-//    sets the given MyDate-object to be the birthday of the person
+//    sets the given week5.MyDate-object to be the birthday of the person
     public PersonEx(String name, MyDate birthday) {
         this.name = name;
         this.birthday = birthday;

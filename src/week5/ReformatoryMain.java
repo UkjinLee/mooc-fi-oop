@@ -1,3 +1,5 @@
+package week5;
+
 public class ReformatoryMain {
     public static void main(String[] args) {
 
@@ -6,10 +8,10 @@ public class ReformatoryMain {
 //        Brian weight: 7 kilos
 //        Pekka weight: 85 kilos
 
-//        Reformatory eastHelsinkiReformatory = new Reformatory();
+//        week5.Reformatory eastHelsinkiReformatory = new week5.Reformatory();
 //
-//        Person brian = new Person("Brian", 1, 110, 7);
-//        Person pekka = new Person("Pekka", 33, 176, 85);
+//        week5.Person brian = new week5.Person("Brian", 1, 110, 7);
+//        week5.Person pekka = new week5.Person("Pekka", 33, 176, 85);
 //
 //        System.out.println(brian.getName() + " weight: " + eastHelsinkiReformatory.weight(brian) + " kilos");
 //        System.out.println(pekka.getName() + " weight: " + eastHelsinkiReformatory.weight(pekka) + " kilos");
@@ -23,10 +25,10 @@ public class ReformatoryMain {
 //        Brian weight: 10 kilos
 //        Pekka weight: 85 kilos
 
-//        Reformatory eastHelsinkiReformatory = new Reformatory();
+//        week5.Reformatory eastHelsinkiReformatory = new week5.Reformatory();
 //
-//        Person brian = new Person("Brian", 1, 110, 7);
-//        Person pekka = new Person("Pekka", 33, 176, 85);
+//        week5.Person brian = new week5.Person("Brian", 1, 110, 7);
+//        week5.Person pekka = new week5.Person("Pekka", 33, 176, 85);
 //
 //        System.out.println(brian.getName() + " weight: " + eastHelsinkiReformatory.weight(brian) + " kilos");
 //        System.out.println(pekka.getName() + " weight: " + eastHelsinkiReformatory.weight(pekka) + " kilos");
@@ -47,10 +49,10 @@ public class ReformatoryMain {
 //        total weights measured 2
 //        total weights measured 6
 
-//        Reformatory eastHelsinkiReformatory = new Reformatory();
+//        week5.Reformatory eastHelsinkiReformatory = new week5.Reformatory();
 //
-//        Person brian = new Person("Brian", 1, 110, 7);
-//        Person pekka = new Person("Pekka", 33, 176, 85);
+//        week5.Person brian = new week5.Person("Brian", 1, 110, 7);
+//        week5.Person pekka = new week5.Person("Pekka", 33, 176, 85);
 //
 //        System.out.println("total weights measured "+eastHelsinkiReformatory.totalWeightsMeasured());
 //

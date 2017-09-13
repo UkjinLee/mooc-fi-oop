@@ -1,3 +1,5 @@
+package week5;
+
 public class Student {
 
 //    EXERCISE 88.1: CLASS STUDENT

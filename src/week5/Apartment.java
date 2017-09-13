@@ -1,3 +1,5 @@
+package week5;
+
 public class Apartment {
     private int rooms;
     private int squareMeters;

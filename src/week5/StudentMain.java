@@ -1,3 +1,5 @@
+package week5;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,7 +13,7 @@ public class StudentMain {
 //        studentnumber: 013141590
 //        Pekka Mikkola (013141590)
 
-//        Student pekka = new Student("Pekka Mikkola", "013141590");
+//        week5.Student pekka = new week5.Student("Pekka Mikkola", "013141590");
 //        System.out.println("name: " + pekka.getName());
 //        System.out.println("studentnumber: " + pekka.getStudentNumber());
 //        System.out.println(pekka);
@@ -33,9 +35,9 @@ public class StudentMain {
 
 //        asks for student information from the user until the user gives a student an empty name.
 //        After the student info has been entered, all students are printed.
-//        use ArrayList for storing Student object
+//        use ArrayList for storing week5.Student object
 
-//        ArrayList<Student> students = new ArrayList<>();
+//        ArrayList<week5.Student> students = new ArrayList<>();
 //
 //        while (true) {
 //            System.out.print("name: ");
@@ -45,11 +47,11 @@ public class StudentMain {
 //                break;
 //            System.out.print("studentnumber: ");
 //            String studentNumber = reader.nextLine();
-//            students.add(new Student(name, studentNumber));
+//            students.add(new week5.Student(name, studentNumber));
 //        }
 //
 //        System.out.println();
-//        for (Student student : students) {
+//        for (week5.Student student : students) {
 //            System.out.println(student);
 //        }
 

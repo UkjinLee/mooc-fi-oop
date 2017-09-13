@@ -1,4 +1,4 @@
-/*
+package week5;/*
  *  DO TOT TOUCH THIS CLASS!
  */
 

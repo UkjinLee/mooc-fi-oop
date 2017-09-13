@@ -1,3 +1,5 @@
+package week5;
+
 public class Player {
 
     private String name;

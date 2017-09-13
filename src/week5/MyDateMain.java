@@ -1,3 +1,5 @@
+package week5;
+
 public class MyDateMain {
 
     public static void main(String[] args) {
@@ -14,8 +16,8 @@ public class MyDateMain {
 //        This week's Friday is 25.2.2011
 //        The date 790 days from this week's Friday is  5.5.2013
 
-//        MyDate day = new MyDate(25, 2, 2011);
-//        MyDate newDate = day.afterNumberOfDays(7);
+//        week5.MyDate day = new week5.MyDate(25, 2, 2011);
+//        week5.MyDate newDate = day.afterNumberOfDays(7);
 //        for (int i = 1; i <= 7; ++i) {
 //            System.out.println("Friday after  " + i + " weeks is " + newDate);
 //            newDate = newDate.afterNumberOfDays(7);
@@ -30,9 +32,9 @@ public class MyDateMain {
 //        25.12.2010 and 24.12.2009 difference in years: 1   // since 2010-2009 = 1
 //        1.1.2011 and 25.12.2010 difference in years: 1     // since 2011-2010 = 1
 
-//        MyDate first = new MyDate(24, 12, 2009);
-//        MyDate second = new MyDate(1, 1, 2011);
-//        MyDate third = new MyDate(25, 12, 2010);
+//        week5.MyDate first = new week5.MyDate(24, 12, 2009);
+//        week5.MyDate second = new week5.MyDate(1, 1, 2011);
+//        week5.MyDate third = new week5.MyDate(25, 12, 2010);
 //
 //        System.out.println( second + " and " + first + " difference in years: " + second.differenceInYears(first) );
 //        System.out.println( third + " and " + first + " difference in years: " + third.differenceInYears(first) );
@@ -45,9 +47,9 @@ public class MyDateMain {
 //        25.12.2010 and 24.12.2009 difference in years: 1
 //        1.1.2011 and 25.12.2010 difference in years: 0
 
-//        MyDate first = new MyDate(24, 12, 2009);
-//        MyDate second = new MyDate(1, 1, 2011);
-//        MyDate third = new MyDate(25, 12, 2010);
+//        week5.MyDate first = new week5.MyDate(24, 12, 2009);
+//        week5.MyDate second = new week5.MyDate(1, 1, 2011);
+//        week5.MyDate third = new week5.MyDate(25, 12, 2010);
 //
 //        System.out.println( second + " and " + first + " difference in years: " + second.differenceInYears(first) );
 //        System.out.println( third + " and " + first + " difference in years: " + third.differenceInYears(first) );

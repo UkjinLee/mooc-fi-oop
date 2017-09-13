@@ -1,3 +1,5 @@
+package week5;
+
 public class BoundedCounter {
     private int value;
     private int upperLimit;

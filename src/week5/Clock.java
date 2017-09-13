@@ -1,3 +1,5 @@
+package week5;
+
 public class Clock {
     private BoundedCounter hours;
     private BoundedCounter minutes;

@@ -1,3 +1,5 @@
+package week5;
+
 //
 // holds a number that can be decreased and increased
 // prevents the counter from going below 0

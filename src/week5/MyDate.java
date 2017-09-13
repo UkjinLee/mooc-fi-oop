@@ -1,3 +1,5 @@
+package week5;
+
 public class MyDate {
     private int day;
     private int month;

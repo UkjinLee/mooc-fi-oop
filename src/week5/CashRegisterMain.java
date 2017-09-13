@@ -1,3 +1,5 @@
+package week5;
+
 public class CashRegisterMain {
 
     public static void main(String[] args) {
@@ -29,7 +31,7 @@ public class CashRegisterMain {
 //        the change was 0.0
 //        money in register 1009.0 economical lunches sold: 2 gourmet lunches sold: 1
 
-//        CashRegister unicafeExactum = new CashRegister();
+//        week5.CashRegister unicafeExactum = new week5.CashRegister();
 //
 //        double theChange = unicafeExactum.payEconomical(10);
 //        System.out.println("the change was " + theChange );
@@ -51,12 +53,12 @@ public class CashRegisterMain {
 //        payment success: true
 //        money in register 1002.5 economical lunches sold: 2 gourmet lunches sold: 1
 
-//        CashRegister unicafeExactum = new CashRegister();
+//        week5.CashRegister unicafeExactum = new week5.CashRegister();
 //
 //        double theChange = unicafeExactum.payEconomical(10);
 //        System.out.println("the change was " + theChange );
 //
-//        LyyraCard cardOfJim = new LyyraCard(7);
+//        week5.LyyraCard cardOfJim = new week5.LyyraCard(7);
 //
 //        boolean succeeded = unicafeExactum.payGourmet(cardOfJim);
 //        System.out.println("payment success: " + succeeded);
@@ -77,10 +79,10 @@ public class CashRegisterMain {
 //        the card balance 98.0 euros
 //        money in register 1100.0 economical lunches sold: 0 gourmet lunches sold: 1
 
-//        CashRegister unicafeExactum = new CashRegister();
+//        week5.CashRegister unicafeExactum = new week5.CashRegister();
 //        System.out.println( unicafeExactum );
 //
-//        LyyraCard cardOfJim = new LyyraCard(2);
+//        week5.LyyraCard cardOfJim = new week5.LyyraCard(2);
 //
 //        System.out.println("the card balance " + cardOfJim.balance() + " euros");
 //
