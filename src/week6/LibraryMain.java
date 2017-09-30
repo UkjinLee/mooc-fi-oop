@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package week6;
 
 public class LibraryMain {
 
@@ -10,17 +10,17 @@ public class LibraryMain {
 //        NHL Hockey, Stanley Kupp, 1952
 //        Battle Axes, Tom A. Hawk, 1851
 
-//        Library Library = new Library();
+//        week6.Library week6.Library = new week6.Library();
 //
-//        Book cheese = new Book("Cheese Problems Solved", "Woodhead Publishing", 2007);
-//        Library.addBook(cheese);
+//        week6.Book cheese = new week6.Book("Cheese Problems Solved", "Woodhead Publishing", 2007);
+//        week6.Library.addBook(cheese);
 //
-//        Book nhl = new Book("NHL Hockey", "Stanley Kupp", 1952);
-//        Library.addBook(nhl);
+//        week6.Book nhl = new week6.Book("NHL Hockey", "Stanley Kupp", 1952);
+//        week6.Library.addBook(nhl);
 //
-//        Library.addBook(new Book("Battle Axes", "Tom A. Hawk", 1851));
+//        week6.Library.addBook(new week6.Book("Battle Axes", "Tom A. Hawk", 1851));
 //
-//        Library.printBooks();
+//        week6.Library.printBooks();
 
 
 //        EXERCISE 101.3: SEARCH FUNCTIONALITY
@@ -31,25 +31,25 @@ public class LibraryMain {
 //        ---
 //        Battle Axes, Tom A. Hawk, 1851
 
-//        Library Library = new Library();
+//        week6.Library week6.Library = new week6.Library();
 //
-//        Library.addBook(new Book("Cheese Problems Solved", "Woodhead Publishing", 2007));
-//        Library.addBook(new Book("The Stinky Cheese Man and Other Fairly Stupid Tales", "Penguin Group", 1992));
-//        Library.addBook(new Book("NHL Hockey", "Stanley Kupp", 1952));
-//        Library.addBook(new Book("Battle Axes", "Tom A. Hawk", 1851));
+//        week6.Library.addBook(new week6.Book("Cheese Problems Solved", "Woodhead Publishing", 2007));
+//        week6.Library.addBook(new week6.Book("The Stinky Cheese Man and Other Fairly Stupid Tales", "Penguin Group", 1992));
+//        week6.Library.addBook(new week6.Book("NHL Hockey", "Stanley Kupp", 1952));
+//        week6.Library.addBook(new week6.Book("Battle Axes", "Tom A. Hawk", 1851));
 //
-//        ArrayList<Book> result = Library.searchByTitle("Cheese");
-//        for (Book book: result) {
+//        ArrayList<week6.Book> result = week6.Library.searchByTitle("Cheese");
+//        for (week6.Book book: result) {
 //            System.out.println(book);
 //        }
 //
 //        System.out.println("---");
-//        for (Book book: Library.searchByPublisher("Penguin Group  ")) {
+//        for (week6.Book book: week6.Library.searchByPublisher("Penguin Group  ")) {
 //            System.out.println(book);
 //        }
 //
 //        System.out.println("---");
-//        for (Book book: Library.searchByYear(1851)) {
+//        for (week6.Book book: week6.Library.searchByYear(1851)) {
 //            System.out.println(book);
 //        }
 

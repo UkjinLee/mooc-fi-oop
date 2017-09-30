@@ -1,3 +1,5 @@
+package week6;
+
 public class NightSkyMain {
 
     public static void main(String[] args) {
@@ -6,8 +8,8 @@ public class NightSkyMain {
 
 //                    *  *                  *
 
-//        NightSky NightSky = new NightSky(0.1, 40, 10);
-//        NightSky.printLine();
+//        week6.NightSky week6.NightSky = new week6.NightSky(0.1, 40, 10);
+//        week6.NightSky.printLine();
 
 
 //        EXERCISE 100.2: PRINTING THE NIGHT SKY
@@ -17,8 +19,8 @@ public class NightSkyMain {
 //          *
 //            *
 
-//        NightSky NightSky = new NightSky(8, 4);
-//        NightSky.print();
+//        week6.NightSky week6.NightSky = new week6.NightSky(8, 4);
+//        week6.NightSky.print();
 
 
 //        EXERCISE 100.3: COUNTING THE NUMBER OF STARS

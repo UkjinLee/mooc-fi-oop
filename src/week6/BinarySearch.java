@@ -1,3 +1,5 @@
+package week6;
+
 public class BinarySearch {
 
     public static boolean search(int[] array, int searchedValue) {

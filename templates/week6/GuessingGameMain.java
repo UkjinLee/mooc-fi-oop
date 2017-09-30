@@ -17,7 +17,7 @@ public class GuessingGameMain {
 //        3
 //        9
 //
-//        GuessingGame game = new GuessingGame();
+//        week6.GuessingGame game = new week6.GuessingGame();
 //        System.out.println(game.average(3, 4));
 //        System.out.println(game.average(6, 12));
 
@@ -35,7 +35,7 @@ public class GuessingGameMain {
 //        y
 //        The number you're thinking of is 4.
 //
-//        GuessingGame game = new GuessingGame();
+//        week6.GuessingGame game = new week6.GuessingGame();
 //
 //        game.play(1,4);  // value to be guessed now within range 1-4
 //        game.play(1,10);  // value to be guessed now within range 1-10

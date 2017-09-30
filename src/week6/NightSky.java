@@ -1,3 +1,5 @@
+package week6;
+
 import java.util.Random;
 
 public class NightSky {
@@ -10,17 +12,17 @@ public class NightSky {
     private Random random;
     private int stars;
 
-//    creates a NightSky object with the given star density. Width gets the value 20 and height the value 10.
+//    creates a week6.NightSky object with the given star density. Width gets the value 20 and height the value 10.
     public NightSky(double density) {
         this(density, 20, 10);
     }
 
-//    creates a NightSky object with the given width and height. Density gets the value 0.1.
+//    creates a week6.NightSky object with the given width and height. Density gets the value 0.1.
     public NightSky(int width, int height) {
         this(0.1, width, height);
     }
 
-//    creates a NightSky-object with the given density, width and height
+//    creates a week6.NightSky-object with the given density, width and height
     public NightSky(double density, int width, int height) {
         this.density = density;
         this.width = width;

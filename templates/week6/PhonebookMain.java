@@ -9,7 +9,7 @@ public class PhonebookMain {
 //        Pekka Mikkola  number: 040-123123
 //        Pekka Mikkola  number: 050-333444
 
-//        Person pekka = new Person("Pekka Mikkola", "040-123123");
+//        week6.Person pekka = new week6.Person("Pekka Mikkola", "040-123123");
 //
 //        System.out.println(pekka.getName());
 //        System.out.println(pekka.getNumber());
@@ -25,7 +25,7 @@ public class PhonebookMain {
 //        Edsger Dijkstra  number: 045-456123
 //        Donald Knuth  number: 050-222333
 
-//        Phonebook phonebook = new Phonebook();
+//        week6.Phonebook phonebook = new week6.Phonebook();
 //
 //        phonebook.add("Pekka Mikkola", "040-123123");
 //        phonebook.add("Edsger Dijkstra", "045-456123");
@@ -39,7 +39,7 @@ public class PhonebookMain {
 //        040-123123
 //        number not known
 
-//        Phonebook phonebook = new Phonebook();
+//        week6.Phonebook phonebook = new week6.Phonebook();
 //        phonebook.add("Pekka Mikkola", "040-123123");
 //        phonebook.add("Edsger Dijkstra", "045-456123");
 //        phonebook.add("Donald Knuth", "050-222333");

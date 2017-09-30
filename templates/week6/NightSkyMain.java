@@ -17,8 +17,8 @@ public class NightSkyMain {
 //          *
 //            *
 
-//        NightSky NightSky = new NightSky(8, 4);
-//        NightSky.print();
+//        week6.NightSky week6.NightSky = new week6.NightSky(8, 4);
+//        week6.NightSky.print();
 
 
 //        EXERCISE 100.3: COUNTING THE NUMBER OF STARS
@@ -34,12 +34,12 @@ public class NightSkyMain {
 //
 //        Number of stars: 3
 
-//        NightSky NightSky = new NightSky(8, 4);
-//        NightSky.print();
-//        System.out.println("Number of stars: " + NightSky.starsInLastPrint());
+//        week6.NightSky week6.NightSky = new week6.NightSky(8, 4);
+//        week6.NightSky.print();
+//        System.out.println("Number of stars: " + week6.NightSky.starsInLastPrint());
 //        System.out.println("");
 //
-//        NightSky.print();
-//        System.out.println("Number of stars: " + NightSky.starsInLastPrint());
+//        week6.NightSky.print();
+//        System.out.println("Number of stars: " + week6.NightSky.starsInLastPrint());
     }
 }

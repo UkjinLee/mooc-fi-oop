@@ -1,3 +1,5 @@
+package week6;
+
 public class Bird {
 
     private String name;

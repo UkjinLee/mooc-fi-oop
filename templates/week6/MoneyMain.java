@@ -4,8 +4,8 @@ public class MoneyMain {
 
 //        EXERCISE 95.1: PLUS
 //
-//        Money a = new Money(10,0);
-//        Money b = new Money(5,0);
+//        week6.Money a = new week6.Money(10,0);
+//        week6.Money b = new week6.Money(5,0);
 //
 //        Money c = a.plus(b);
 //
@@ -25,9 +25,9 @@ public class MoneyMain {
 
 //        EXERCISE 95.2: LESS
 //
-//        Money a = new Money(10,0);
-//        Money b = new Money(3,0);
-//        Money c = new Money(5,0);
+//        week6.Money a = new week6.Money(10,0);
+//        week6.Money b = new week6.Money(3,0);
+//        week6.Money c = new week6.Money(5,0);
 //
 //        System.out.println(a.less(b));  // false
 //        System.out.println(b.less(c));  // true
@@ -35,8 +35,8 @@ public class MoneyMain {
 
 //        EXERCISE 95.3: MINUS
 //
-//        Money a = new Money(10,0);
-//        Money b = new Money(3,50);
+//        week6.Money a = new week6.Money(10,0);
+//        week6.Money b = new week6.Money(3,50);
 //
 //        Money c = a.minus(b);
 //

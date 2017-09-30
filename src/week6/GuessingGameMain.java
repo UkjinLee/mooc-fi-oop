@@ -1,3 +1,5 @@
+package week6;
+
 public class GuessingGameMain {
 
     public static void main(String[] args) {
@@ -8,7 +10,7 @@ public class GuessingGameMain {
 //        y
 //        true
 //
-//        GuessingGame game = new GuessingGame();
+//        week6.GuessingGame game = new week6.GuessingGame();
 //        System.out.println(game.isGreaterThan(32));
 
 
@@ -17,7 +19,7 @@ public class GuessingGameMain {
 //        3
 //        9
 //
-//        GuessingGame game = new GuessingGame();
+//        week6.GuessingGame game = new week6.GuessingGame();
 //        System.out.println(game.average(3, 4));
 //        System.out.println(game.average(6, 12));
 

@@ -1,3 +1,5 @@
+package week6;
+
 public class Money {
 
     private final int euros;

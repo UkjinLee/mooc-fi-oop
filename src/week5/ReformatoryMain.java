@@ -10,8 +10,8 @@ public class ReformatoryMain {
 
 //        week5.Reformatory eastHelsinkiReformatory = new week5.Reformatory();
 //
-//        week5.Person brian = new week5.Person("Brian", 1, 110, 7);
-//        week5.Person pekka = new week5.Person("Pekka", 33, 176, 85);
+//        week5.week6.Person brian = new week5.week6.Person("Brian", 1, 110, 7);
+//        week5.week6.Person pekka = new week5.week6.Person("Pekka", 33, 176, 85);
 //
 //        System.out.println(brian.getName() + " weight: " + eastHelsinkiReformatory.weight(brian) + " kilos");
 //        System.out.println(pekka.getName() + " weight: " + eastHelsinkiReformatory.weight(pekka) + " kilos");
@@ -27,8 +27,8 @@ public class ReformatoryMain {
 
 //        week5.Reformatory eastHelsinkiReformatory = new week5.Reformatory();
 //
-//        week5.Person brian = new week5.Person("Brian", 1, 110, 7);
-//        week5.Person pekka = new week5.Person("Pekka", 33, 176, 85);
+//        week5.week6.Person brian = new week5.week6.Person("Brian", 1, 110, 7);
+//        week5.week6.Person pekka = new week5.week6.Person("Pekka", 33, 176, 85);
 //
 //        System.out.println(brian.getName() + " weight: " + eastHelsinkiReformatory.weight(brian) + " kilos");
 //        System.out.println(pekka.getName() + " weight: " + eastHelsinkiReformatory.weight(pekka) + " kilos");
@@ -51,8 +51,8 @@ public class ReformatoryMain {
 
 //        week5.Reformatory eastHelsinkiReformatory = new week5.Reformatory();
 //
-//        week5.Person brian = new week5.Person("Brian", 1, 110, 7);
-//        week5.Person pekka = new week5.Person("Pekka", 33, 176, 85);
+//        week5.week6.Person brian = new week5.week6.Person("Brian", 1, 110, 7);
+//        week5.week6.Person pekka = new week5.week6.Person("Pekka", 33, 176, 85);
 //
 //        System.out.println("total weights measured "+eastHelsinkiReformatory.totalWeightsMeasured());
 //

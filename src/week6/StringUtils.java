@@ -1,3 +1,5 @@
+package week6;
+
 public class StringUtils {
 
 //    checks if the string searched is contained within the string word

@@ -1,3 +1,5 @@
+package week6;
+
 public class ScoresMain {
 
     public static void main(String[] args) {
