@@ -1,7 +1,7 @@
 public class Smileys {
 
     private static void printWithSmileys(String characterString) {
-        
+
     }
 
     public static void main(String[] args) {
