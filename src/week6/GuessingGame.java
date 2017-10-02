@@ -21,7 +21,7 @@ public class GuessingGame {
             if (isGreaterThan(middle)) {
                 low = middle + 1;
             } else {
-                high = middle - 1;
+                high = middle;
             }
         }
         System.out.println("The number you're thinking of is " + low + ".");

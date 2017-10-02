@@ -12,7 +12,7 @@ public class BinarySearch {
             if (array[middle] < searchedValue)
                 low = middle + 1;
             else
-                high = middle - 1;
+                high = middle;
         }
         return (array[low] == searchedValue);
     }
