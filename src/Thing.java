@@ -3,7 +3,7 @@ public class Thing {
     private String name;
     private int weight;
 
-    //    A construsctor, which is given the thing's name and weight as parameter
+    // A construsctor, which is given the thing's name and weight as parameter
     public Thing(String name, int weight) {
         this.name = name;
         this.weight = weight;
