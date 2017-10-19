@@ -64,7 +64,12 @@ public class TextUserInterface {
 //        Translation: carrot
         System.out.print("Give a word: ");
         String korean = reader.nextLine();
-        System.out.println("Translation: " + dictionary.translate(korean));
+        String translated = dictionary.translate(korean);
+        if (translated != null) {
+            System.out.println("Translation: " + translated);
+        } else {
+            System.out.println("Unknown word!");
+        }
     }
 
 //    show the word list
@@ -129,10 +134,40 @@ public class TextUserInterface {
 //        Statement: quit
 //        Cheers!
 
-        Scanner reader = new Scanner(System.in);
-        Dictionary dict = new Dictionary();
+//        Scanner reader = new Scanner(System.in);
+//        Dictionary dict = new Dictionary();
+//
+//        TextUserInterface ui = new TextUserInterface(reader, dict);
+//        ui.start();
 
-        TextUserInterface ui = new TextUserInterface(reader, dict);
+
+//        37. TOWARDS AUTOMATIC TESTS
+
+//        Statements:
+//        add - adds a word pair to the dictionary
+//        translate - asks a word and prints its translation
+//        quit - quits the text user interface
+//        list - show the word list
+//
+//        Statement: Give a word: Unknown word!
+//
+//        Statement: Give a word: Unknown word!
+//
+//        Statement: In Korean: Translation:
+//        Statement: Give a word: Translation: 치즈
+//
+//        Statement: Cheers!
+
+        String input = "translate\n" + "monkey\n"  +
+                "translate\n" + "cheese\n" +
+                "add\n"  + "cheese\n" + "치즈\n" +
+                "translate\n" + "cheese\n" +
+                "quit\n";
+
+        Scanner reader = new Scanner(input);
+        Dictionary dictionary = new Dictionary();
+
+        TextUserInterface ui = new TextUserInterface(reader, dictionary);
         ui.start();
     }
 }

@@ -78,5 +78,35 @@ public class TextUserInterface {
 //
 //        TextUserInterface ui = new TextUserInterface(reader, dict);
 //        ui.start();
+
+
+//        37. TOWARDS AUTOMATIC TESTS
+
+//        Statements:
+//        add - adds a word pair to the dictionary
+//        translate - asks a word and prints its translation
+//        quit - quits the text user interface
+//        list - show the word list
+//
+//        Statement: Give a word: Unknown word!
+//
+//        Statement: Give a word: Unknown word!
+//
+//        Statement: In Korean: Translation:
+//        Statement: Give a word: Translation: 치즈
+//
+//        Statement: Cheers!
+
+//        String input = "translate\n" + "monkey\n"  +
+//                "translate\n" + "cheese\n" +
+//                "add\n"  + "cheese\n" + "치즈\n" +
+//                "translate\n" + "cheese\n" +
+//                "quit\n";
+//
+//        Scanner reader = new Scanner(input);
+//        Dictionary dictionary = new Dictionary();
+//
+//        TextUserInterface ui = new TextUserInterface(reader, dictionary);
+//        ui.start();
     }
 }
