@@ -74,9 +74,9 @@ public class TextUserInterface {
 //        Cheers!
 
 //        Scanner reader = new Scanner(System.in);
-//        Dictionary dict = new Dictionary();
+//        week7.Dictionary dict = new week7.Dictionary();
 //
-//        TextUserInterface ui = new TextUserInterface(reader, dict);
+//        week7.TextUserInterface ui = new week7.TextUserInterface(reader, dict);
 //        ui.start();
 
 
@@ -104,9 +104,9 @@ public class TextUserInterface {
 //                "quit\n";
 //
 //        Scanner reader = new Scanner(input);
-//        Dictionary dictionary = new Dictionary();
+//        week7.Dictionary dictionary = new week7.Dictionary();
 //
-//        TextUserInterface ui = new TextUserInterface(reader, dictionary);
+//        week7.TextUserInterface ui = new week7.TextUserInterface(reader, dictionary);
 //        ui.start();
     }
 }

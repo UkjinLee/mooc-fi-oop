@@ -1,3 +1,5 @@
+package week7;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -20,7 +22,7 @@ public class Airport {
     }
 
     private void airportPanel() {
-        System.out.println("Airport panel");
+        System.out.println("week7.Airport panel");
         System.out.println("--------------------");
         System.out.println();
 
@@ -64,7 +66,7 @@ public class Airport {
     }
 
     private void flightService() {
-        System.out.println("Flight service");
+        System.out.println("week7.Flight service");
         System.out.println("--------------------");
         System.out.println();
 

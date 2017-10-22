@@ -1,4 +1,5 @@
-import java.lang.reflect.Array;
+package week7;
+
 import java.util.ArrayList;
 
 public class Changer {

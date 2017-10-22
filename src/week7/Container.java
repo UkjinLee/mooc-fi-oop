@@ -1,3 +1,5 @@
+package week7;
+
 import java.util.ArrayList;
 
 public class Container {
@@ -54,18 +56,18 @@ public class Container {
 //
 //        2 suitcases (7 kg)
 
-//        Thing book = new Thing("Happiness in Three Steps", 2);
-//        Thing mobile = new Thing("Nokia 3210", 1);
-//        Thing brick = new Thing("Brick", 4);
+//        week7.Thing book = new week7.Thing("Happiness in Three Steps", 2);
+//        week7.Thing mobile = new week7.Thing("Nokia 3210", 1);
+//        week7.Thing brick = new week7.Thing("Brick", 4);
 //
-//        Suitcase tomsCase = new Suitcase(10);
+//        week7.Suitcase tomsCase = new week7.Suitcase(10);
 //        tomsCase.addThing(book);
 //        tomsCase.addThing(mobile);
 //
-//        Suitcase georgesCase = new Suitcase(10);
+//        week7.Suitcase georgesCase = new week7.Suitcase(10);
 //        georgesCase.addThing(brick);
 //
-//        Container container = new Container(1000);
+//        week7.Container container = new week7.Container(1000);
 //        container.addSuitcase(tomsCase);
 //        container.addSuitcase(georgesCase);
 //
@@ -79,18 +81,18 @@ public class Container {
 //        Nokia 3210 (1 kg)
 //        Brick (4 kg)
 
-//        Thing book = new Thing("Happiness in Three Steps", 2);
-//        Thing mobile = new Thing("Nokia 3210", 1);
-//        Thing brick = new Thing("Brick", 4);
+//        week7.Thing book = new week7.Thing("Happiness in Three Steps", 2);
+//        week7.Thing mobile = new week7.Thing("Nokia 3210", 1);
+//        week7.Thing brick = new week7.Thing("Brick", 4);
 //
-//        Suitcase tomsCase = new Suitcase(10);
+//        week7.Suitcase tomsCase = new week7.Suitcase(10);
 //        tomsCase.addThing(book);
 //        tomsCase.addThing(mobile);
 //
-//        Suitcase georgesCase = new Suitcase(10);
+//        week7.Suitcase georgesCase = new week7.Suitcase(10);
 //        georgesCase.addThing(brick);
 //
-//        Container container = new Container(1000);
+//        week7.Container container = new week7.Container(1000);
 //        container.addSuitcase(tomsCase);
 //        container.addSuitcase(georgesCase);
 //

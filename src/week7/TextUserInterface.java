@@ -1,7 +1,7 @@
+package week7;
+
 import java.util.ArrayList;
 import java.util.Scanner;
-
-import static com.sun.tools.attach.VirtualMachine.list;
 
 public class TextUserInterface {
 
@@ -100,9 +100,9 @@ public class TextUserInterface {
 //        Cheers!
 
 //        Scanner reader = new Scanner(System.in);
-//        Dictionary dict = new Dictionary();
+//        week7.Dictionary dict = new week7.Dictionary();
 //
-//        TextUserInterface ui = new TextUserInterface(reader, dict);
+//        week7.TextUserInterface ui = new week7.TextUserInterface(reader, dict);
 //        ui.start();
 
 
@@ -135,9 +135,9 @@ public class TextUserInterface {
 //        Cheers!
 
 //        Scanner reader = new Scanner(System.in);
-//        Dictionary dict = new Dictionary();
+//        week7.Dictionary dict = new week7.Dictionary();
 //
-//        TextUserInterface ui = new TextUserInterface(reader, dict);
+//        week7.TextUserInterface ui = new week7.TextUserInterface(reader, dict);
 //        ui.start();
 
 

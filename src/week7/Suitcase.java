@@ -1,3 +1,5 @@
+package week7;
+
 import java.util.ArrayList;
 
 public class Suitcase {
@@ -77,11 +79,11 @@ public class Suitcase {
 //        2 things (3 kg)
 //        2 things (3 kg)
 
-//        Thing book = new Thing("Happiness in three steps", 2);
-//        Thing mobile = new Thing("Nokia 3210", 1);
-//        Thing brick = new Thing("Brick", 4);
+//        week7.Thing book = new week7.Thing("Happiness in three steps", 2);
+//        week7.Thing mobile = new week7.Thing("Nokia 3210", 1);
+//        week7.Thing brick = new week7.Thing("Brick", 4);
 //
-//        Suitcase suitcase = new Suitcase(5);
+//        week7.Suitcase suitcase = new week7.Suitcase(5);
 //        System.out.println(suitcase);
 //
 //        suitcase.addThing(book);
@@ -110,11 +112,11 @@ public class Suitcase {
 //        Brick (4 kg)
 //        Total weight: 7 kg
 
-//        Thing book = new Thing("Happiness in Three Steps", 2);
-//        Thing mobile = new Thing("Nokia 3210", 1);
-//        Thing brick = new Thing("Brick", 4);
+//        week7.Thing book = new week7.Thing("Happiness in Three Steps", 2);
+//        week7.Thing mobile = new week7.Thing("Nokia 3210", 1);
+//        week7.Thing brick = new week7.Thing("Brick", 4);
 //
-//        Suitcase suitcase = new Suitcase(10);
+//        week7.Suitcase suitcase = new week7.Suitcase(10);
 //        suitcase.addThing(book);
 //        suitcase.addThing(mobile);
 //        suitcase.addThing(brick);

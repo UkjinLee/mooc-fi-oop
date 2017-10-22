@@ -1,3 +1,5 @@
+package week7;
+
 public class Smileys {
 
     private static void printSmileys(int count) {

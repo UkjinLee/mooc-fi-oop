@@ -1,3 +1,5 @@
+package week7;
+
 public class Change {
 
     private char fromCharacter;

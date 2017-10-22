@@ -51,7 +51,7 @@ public class Dictionary {
 //        2
 //        3
 
-//        Dictionary dictionary = new Dictionary();
+//        week7.Dictionary dictionary = new week7.Dictionary();
 //        dictionary.add("원숭이", "monkey");
 //        dictionary.add("야구", "baseball");
 //        System.out.println(dictionary.amountOfWords());
@@ -66,7 +66,7 @@ public class Dictionary {
 //        원숭이 = monkey
 //        야구 = baseball
 
-//        Dictionary dictionary = new Dictionary();
+//        week7.Dictionary dictionary = new week7.Dictionary();
 //        dictionary.add("원숭이", "monkey");
 //        dictionary.add("야구", "baseball");
 //        dictionary.add("수영", "swimming");

@@ -1,3 +1,5 @@
+package week7;
+
 public class Thing {
 
     private String name;

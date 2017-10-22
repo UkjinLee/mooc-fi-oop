@@ -1,7 +1,9 @@
+package week7;
+
 public class Calculator {
 
 //    EXERCISE 3.1: READER
-//    implement Reader class
+//    implement week7.Reader class
 
 
 //    EXERCISE 3.2: APPLICATION BODY
